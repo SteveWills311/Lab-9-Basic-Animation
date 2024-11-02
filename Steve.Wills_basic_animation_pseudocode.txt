@@ -1,0 +1,52 @@
+Steve Wills 
+Basic Animation Algorithm
+
+import pygame
+
+def main
+
+Display:
+Screen display 640 x 480 pixels
+Set caption to "Mosey on over..."
+	
+Entities:
+background = pygame.Surface(screen.get_size())
+background = background.convert
+background.fill("papayawhip")
+
+
+Load image for sprite
+Convert alpha
+Scale image
+
+Set variables for sprite(location on display)
+x 0
+y 200
+	
+Action broken in to ALTER
+	Assignvalues to key variables:
+		Initialize clock
+		keepGoing gets True
+	set the main Loop:
+		While keepGoing:
+	Timer:
+		Set clock to 30 frames per second
+	Event handling:
+		if event.type == pygame.QUIT:
+			keepGoing = Flase
+		If key is pressed DOWN:
+			If "SPACE" pressed down:
+				dx gets random integer (-10,10)
+				dy gets random integer (-10,10)
+		sprite's x position gets += dx
+		sprite's y position gets += dy
+				
+					
+	Refresh screen:
+		screen.blit(background(0,0))
+		screen.blit(sprite, (sprite_x, sprite_y))
+		Flip display
+
+main
+
+	
