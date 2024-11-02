@@ -1,0 +1,48 @@
+Steve Wills 
+Basic Animation Algorithm
+
+import pygame
+
+def main
+
+Display:
+Screen display 640 x 480 pixels
+Set caption to "Where's Daenarys?"
+	
+Entities:
+background = pygame.Surface(screen.get_size())
+background = background.convert
+background.fill("papayawhip")
+
+
+Load image for sprite
+Convert alpha
+Scale image
+
+Set variables for sprite(location on display)
+x 0
+y 240
+	
+Action broken in to ALTER
+	Assign values to key variables:
+		Initialize clock
+		keepGoing gets True
+	set the main Loop:
+		While keepGoing:
+	Timer:
+		Set clock to 30 frames per second
+	Event handling:
+		if event.type == pygame.QUIT:
+			keepGoing = False
+	Modify the "box"
+	dragon_x and _y +=5
+						
+					
+	Refresh screen:
+		screen.blit(background(0,0))
+		screen.blit(sprite, (sprite_x, sprite_y))
+		Flip display
+		
+main
+
+	
